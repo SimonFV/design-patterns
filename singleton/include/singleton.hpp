@@ -20,7 +20,7 @@ public:
 
 public:
     int getData();
-    int setData(int data);
+    void setData(int data);
 };
 
 #endif

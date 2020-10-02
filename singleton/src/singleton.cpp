@@ -1,4 +1,4 @@
-#include <singleton.hpp>
+#include "singleton.hpp"
 
 singleton *singleton::instance = nullptr;
 
@@ -16,7 +16,7 @@ int singleton::getData()
     return this->data;
 }
 
-int singleton::setData(int data)
+void singleton::setData(int data)
 {
     this->data = data;
 }
